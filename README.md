@@ -1,5 +1,7 @@
 # Medically-assisted-evaluation-devices
-The project started at about September 2017. The interns need to practice on the simulation baby about cardiopulmonary resuscitation (CPR) and the operation of the oxygen bottle. Current evaluation method is by experienced doctor, the project aims at using extra devices to evaluate the intern's operation. Unfortunately, the project just completed partly because my tutor failed to cooperate with the hospital, it's hard for me to get the actual data to analyse.
+The project started at about September 2017. The interns need to practice on the simulation baby about cardiopulmonary resuscitation (CPR) and the operation of the oxygen bottle. Current evaluation method is by experienced doctor, the project aims at using extra devices to evaluate the intern's operation. In our scheme, we use cc2640r2f(BLE chip) and BMP280 to get the data change of air pressure in the mouth of simulaiton baby, and then transmit it to the app we designed. The data can reflect the operation of oxygen bottle in some way, we will get data from experienced doctor, train our model and then judge the data from intern.
+
+Unfortunately, the project just completed partly because my tutor failed to cooperate with the hospital, it's hard for me to get the actual data to analyse.
 
 **Schematic Diagram**
 The schematic digram of the device is as follows. The device is powered by a very small lithium battery, so I add a extra charging circuit which adopts TP4056 chip.
